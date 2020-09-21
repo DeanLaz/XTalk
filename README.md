@@ -1,2 +1,3 @@
 # XTalk
-# XTalk
+
+Secure Chat App
