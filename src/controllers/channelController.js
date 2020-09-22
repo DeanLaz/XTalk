@@ -7,7 +7,7 @@ exports.createRoom = async (req, res) => {
   const nameRegex = /^[A-Za-z\s]+$/;
 
   if (!nameRegex.test(name))
-    throw "A GroupChat can name can contain only alphabets.";
+    throw "Channel names can contain only alphabets letters.";
 
   const roomExists = await Room.findOne({ name });
 

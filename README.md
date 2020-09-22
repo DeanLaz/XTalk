@@ -1,3 +1,7 @@
 # XTalk
 
-Secure Chat App
+Chat App with Channels
+
+##
+
+Dean Laz

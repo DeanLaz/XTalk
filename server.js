@@ -15,14 +15,14 @@ mongoose.connection.once("open", () => {
 });
 
 //Bring in the models
-require("./models/User");
-require("./models/Channel");
-require("./models/Msg");
+require("./src/models/User");
+require("./src/models/Channel");
+require("./src/models/Msg");
 
-const app = require("./app");
+const app = require(".");
 
-const server = app.listen(8000, () => {
-  console.log("Server listening on port 8000");
+const server = app.listen(3001, () => {
+  console.log("Server listening on port 3001");
 });
 
 const io = require("socket.io")(server);
