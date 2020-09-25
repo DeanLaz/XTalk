@@ -1,6 +1,6 @@
-# XTalk
+# XTalk - IN REDEVELOPEMENT
 
-Chat App with Channels
+Chat App with Channels - BEING REDEVELOPED
 
 ##
 
